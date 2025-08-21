@@ -27,3 +27,21 @@ print(f"Produto: {nome}")
 print(f"Preço original: R$ {preco_original:.2f}")
 print(f"Valor do desconto: R$ {valor_de_desconto:.2f}")
 print(f"Preço final com desconto: R$ {preco_final:.2f}")
+
+# 3- Calculadora de Média Escolar
+nota1 = 7.5
+nota2 = 8.0
+nota3 = 6.5 
+media = (nota1 + nota2 + nota3) / 3
+print(f"Nota 1: {nota1}")
+print(f"Nota 2: {nota2}")
+print(f"Nota 3: {nota3}")
+print(f"Média final: {media:.2f}")  
+
+# 4- Calculadora de Consumo de Combustível
+distancia_percorrida = 300
+combustivel_gasto = 25  
+consumo_medio = distancia_percorrida / combustivel_gasto
+print(f"Distância percorrida: {distancia_percorrida} km")
+print(f"Combustível gasto: {combustivel_gasto} litros")
+print(f"Consumo médio: {consumo_medio:.2f} km/l")
